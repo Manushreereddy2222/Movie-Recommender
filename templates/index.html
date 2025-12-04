@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Recommender</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: white;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        h1 {
+            font-size: 40px;
+            margin-bottom: 30px;
+            color: #58a6ff;
+        }
+
+        .search-box {
+            background-color: #161b22;
+            padding: 30px;
+            border-radius: 12px;
+            width: 400px;
+            margin: 0 auto;
+            box-shadow: 0px 0px 10px #30363d;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border-radius: 6px;
+            border: none;
+            background-color: #238636;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2ea043;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎬 Movie Recommender</h1>
+
+    <div class="search-box">
+        <form action="/results" method="get">
+            <input type="text" name="q" placeholder="Search for a movie...">
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+</body>
+</html>

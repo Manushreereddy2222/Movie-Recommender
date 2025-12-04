@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #58a6ff;
+            margin-bottom: 30px;
+        }
+
+        .movie-card {
+            background-color: #161b22;
+            padding: 20px;
+            margin: 15px auto;
+            width: 60%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #30363d;
+            text-align: left;
+        }
+
+        .movie-title {
+            font-size: 24px;
+            color: #79c0ff;
+        }
+
+        .back-link {
+            margin-top: 20px;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #238636;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .back-link:hover {
+            background-color: #2ea043;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Results for "{{ query }}"</h1>
+
+    {% if results %}
+        {% for movie in results %}
+            <div class="movie-card">
+                <div class="movie-title">{{ movie.title }} ({{ movie.year }})</div>
+                <p><strong>Genre:</strong> {{ movie.genre }}</p>
+                <p>{{ movie.description }}</p>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No movies found.</p>
+    {% endif %}
+
+    <a class="back-link" href="/">← Back to Search</a>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "genre": "Sci-Fi",
+    "year": 2010,
+    "description": "A thief enters people's dreams to steal secrets, but must plant an idea instead."
+  },
+  {
+    "id": 2,
+    "title": "The Dark Knight",
+    "genre": "Action",
+    "year": 2008,
+    "description": "Batman faces the Joker, a criminal mastermind pushing Gotham into chaos."
+  },
+  {
+    "id": 3,
+    "title": "Interstellar",
+    "genre": "Sci-Fi",
+    "year": 2014,
+    "description": "Explorers travel through a wormhole to save humanity from extinction."
+  },
+  {
+    "id": 4,
+    "title": "Titanic",
+    "genre": "Romance",
+    "year": 1997,
+    "description": "Two lovers from different worlds meet aboard the ill-fated Titanic."
+  },
+  {
+    "id": 5,
+    "title": "Avatar",
+    "genre": "Fantasy",
+    "year": 2009,
+    "description": "A marine enters a new world and must choose between his people and the Na'vi."
+  },
+
+  {
+    "id": 6,
+    "title": "Baahubali: The Beginning",
+    "genre": "Action",
+    "year": 2015,
+    "description": "A young man discovers his royal heritage and fights to protect his kingdom."
+  },
+  {
+    "id": 7,
+    "title": "Baahubali: The Conclusion",
+    "genre": "Action",
+    "year": 2017,
+    "description": "The epic battle for the throne continues with revenge, justice, and destiny."
+  },
+  {
+    "id": 8,
+    "title": "RRR",
+    "genre": "Action",
+    "year": 2022,
+    "description": "Two legendary revolutionaries unite against British colonial rule."
+  },
+  {
+    "id": 9,
+    "title": "Ala Vaikunthapuramulo",
+    "genre": "Drama",
+    "year": 2020,
+    "description": "A man discovers he was switched at birth and fights for his rightful place."
+  },
+  {
+    "id": 10,
+    "title": "Arjun Reddy",
+    "genre": "Romance",
+    "year": 2017,
+    "description": "A brilliant but impulsive surgeon spirals after losing the love of his life."
+  },
+
+  {
+    "id": 11,
+    "title": "3 Idiots",
+    "genre": "Comedy",
+    "year": 2009,
+    "description": "Three friends navigate college life, friendship, and the pressure to succeed."
+  },
+  {
+    "id": 12,
+    "title": "Dangal",
+    "genre": "Sports",
+    "year": 2016,
+    "description": "A father trains his daughters to become world-class wrestlers."
+  },
+  {
+    "id": 13,
+    "title": "PK",
+    "genre": "Comedy",
+    "year": 2014,
+    "description": "An innocent alien questions societal norms and human beliefs."
+  },
+  {
+    "id": 14,
+    "title": "Kabir Singh",
+    "genre": "Romance",
+    "year": 2019,
+    "description": "A passionate surgeon loses control after a breakup and battles his inner demons."
+  },
+  {
+    "id": 15,
+    "title": "Lagaan",
+    "genre": "Historical Drama",
+    "year": 2001,
+    "description": "Villagers challenge British officers to a cricket match to avoid heavy taxes."
+  }
+]
